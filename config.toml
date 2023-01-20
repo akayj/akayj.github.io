@@ -11,3 +11,10 @@ mainSections = ["post"]
 [[params.socials]]
 name = "Github"
 link = "https://github.com/akayj"
+
+[markup]
+[markup.highlight]
+style = "github"
+noClasses = true
+linenos = true
+lineNumbersInTable = true
