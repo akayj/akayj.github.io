@@ -17,4 +17,4 @@ wordpress 是流行全球的博客软件，功能强大，插件完善，但我�
 
 所以, 我的最终的选型:
 
-**Markdown** -> **Hugo(Github Workflow)** -> **Github Pages**
+**Markdown + [Hugo](https://gohugo.io/) (编写) -> [Github Actions](https://docs.github.com/zh/actions) (构建) -> [Github Pages](https://pages.github.com/) (发布)**

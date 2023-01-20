@@ -1,7 +1,8 @@
 /* global */
 
 body {
-  font-family: "Bree Serif", sans-serif;
+  /* font-family: "Bree Serif", sans-serif; */
+  font-family: Arial, "Fira Code", Menlo, Monaco, "微软雅黑", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
 }
@@ -52,6 +53,7 @@ a:hover {
 .markdown-body code {
   padding: 0.2em 0.4em;
   font-size: 85%;
+  font-family: Menlo, Monaco, "Fira Code", monokai, "Courier New", serif-sans;
   background-color: #f6f8fa;
   border-radius: 6px;
 }
@@ -64,7 +66,6 @@ a:hover {
   font-size: 0.8em;
   background-color: inherit;
   border: 0;
-  font-family: Menlo, Monaco, "Fira Code", monokai, "Courier New", serif-sans;
 }
 
 /* i18n */
