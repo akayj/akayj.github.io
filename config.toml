@@ -1,4 +1,13 @@
 baseURL = 'https://akayj.github.io/'
 languageCode = 'zh-CN'
-title = 'akayj的博客'
-theme = "LoveIt"
+title = "akayj的博客"
+description = "akayj的个人博客， 聊聊技术经验、日常趣事等"
+theme = "yinyang"
+
+[params]
+headTitle = "askingyj"
+mainSections = ["post"]
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/akayj"
