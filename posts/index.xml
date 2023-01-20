@@ -3,4 +3,4 @@
 博客 是一种 古老而稳定 的方式，能很好的满足我的分享的要求，除此外， 一个没有博客的技术人，不是一个好技术人 😂。
 选型 wordpress 是流行全球的博客软件，功能强大，插件完善，但我更希望专注文字本身， 静态博客 + Markdown 满足我对简洁、足够强大通用、插件支持的需求。
 所以, 我的最终的选型:
-Markdown -&amp;gt; Hugo(Github Workflow) -&amp;gt; Github Pages</description></item></channel></rss>
+Markdown + Hugo (编写) -&amp;gt; Github Actions (构建) -&amp;gt; Github Pages (发布)</description></item></channel></rss>
