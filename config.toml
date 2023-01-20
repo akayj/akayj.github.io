@@ -1,21 +1,9 @@
 baseURL = 'https://akayj.github.io/'
 languageCode = 'zh-CN'
-title = "akayj的博客"
-description = "akayj的个人博客， 聊聊技术经验、日常趣事等"
+title = "Asking Life"
+description = "胡思乱想-技术、生活、想法等"
 theme = "yinyang"
-
-
-[params]
-headTitle = "askingyj"
-# mainSections = ["posts"]
-
-[[params.socials]]
-name = "Posts"
-link = "/posts"
-
-[[params.socials]]
-name = "Github"
-link = "https://github.com/akayj"
+DefaultContentLanguage = "cn"
 
 [markup]
 [markup.highlight]
@@ -23,3 +11,24 @@ style = "github"
 noClasses = true
 lineNos = true
 lineNumbersInTable = true
+
+
+[params]
+headTitle = "Akayj's Life"
+# mainSections = ["posts"]
+
+[[params.socials]]
+name = "About"
+link = "/about"
+
+[[params.socials]]
+name = "Posts"
+link = "/posts"
+
+[[params.socials]]
+name = "Tags"
+link = "/tags"
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/akayj"
