@@ -5,6 +5,8 @@ description = "胡思乱想-技术、生活、想法等"
 theme = "yinyang"
 DefaultContentLanguage = "cn"
 
+# staticDir = ['assets']
+
 [markup]
 [markup.highlight]
 style = "github"
