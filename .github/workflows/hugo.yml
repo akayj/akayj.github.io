@@ -68,5 +68,5 @@ jobs:
           folder: public
           token: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
-          git-config-name: github-action-deploy
-          git-config-email: github-action@github.com
+          git-config-name: akayj-gh-action
+          git-config-email: akayj-gh-action@github.com
