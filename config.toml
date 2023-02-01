@@ -1,36 +1,57 @@
 baseURL = 'https://akayj.github.io/'
-languageCode = 'zh-CN'
-title = "Asking Life"
-description = "胡思乱想-技术、生活、想法等"
-theme = "yinyang"
+# title = "Asking Life"
+# description = "胡思乱想-技术、生活、想法等"
+theme = "LoveIt"
 DefaultContentLanguage = "cn"
 
-# staticDir = ['assets']
+languageCode = 'zh-CN'
+languageName = "简体中文"
+hasCJKLanguage = true
+
+enableGitInfo = true
+
+[author]
+name = "akayj"
+email = "askingyj@gmail.com"
+link = "/about"
+
+[menu]
+[[menu.main]]
+weight = 1
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+
+[[menu.main]]
+weight = 2
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+
+[[menu.main]]
+weight = 3
+identifier = "about"
+name = "关于我"
+url = "/about/"
 
 [markup]
 [markup.highlight]
-style = "github"
-noClasses = true
-lineNos = true
-lineNumbersInTable = true
-
+noClasses = false
 
 [params]
-headTitle = "Akayj's Life"
-# mainSections = ["posts"]
+[params.header.title]
+# logo = "https://avatars.githubusercontent.com/u/146218?s=40&v=4"
+name = "Asking Life"
+typeit = false
 
-[[params.socials]]
-name = "About"
-link = "/about"
+[params.home.profile]
+enable = false
 
-[[params.socials]]
-name = "Posts"
-link = "/posts"
+[params.page.share]
+enable = false
 
-[[params.socials]]
-name = "Tags"
-link = "/tags"
-
-[[params.socials]]
-name = "Github"
-link = "https://github.com/akayj"
+[params.footer]
+enable = true
+hugo = true
+since = 2019
+custom = '由 Hugo 强力驱动'
