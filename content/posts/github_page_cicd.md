@@ -5,7 +5,7 @@ summary: "用Github workflow打造快速博客构建部署工作流"
 tags: ["github pages", "cicd", "blog", "hugo"]
 ---
 
-[![Gogs](/img/github-actions.png)](https://docs.github.com/en/actions)
+[![Github Actions](/img/github-actions.png)](https://docs.github.com/en/actions)
 
 博客的构建和部署受更新影响，一般不会很频繁，但枯燥、乏味、一成不变.
 
