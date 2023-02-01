@@ -1,6 +1,6 @@
 baseURL = 'https://akayj.github.io/'
-# title = "Asking Life"
-# description = "胡思乱想-技术、生活、想法等"
+title = "Asking Life"
+description = "胡思乱想-技术、生活、想法等"
 theme = "LoveIt"
 DefaultContentLanguage = "cn"
 
@@ -9,6 +9,9 @@ languageName = "简体中文"
 hasCJKLanguage = true
 
 enableGitInfo = true
+
+[frontmatter]
+lastmod = [":git", ":fileModTime", "lastmod"]
 
 [author]
 name = "akayj"
@@ -49,6 +52,10 @@ enable = false
 
 [params.page.share]
 enable = false
+
+[params.page.code]
+copy = true
+maxShownLines = 10
 
 [params.footer]
 enable = true
