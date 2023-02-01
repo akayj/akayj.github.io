@@ -59,7 +59,7 @@ tags: ["github pages", "cicd", "blog", "hugo"]
 
 #### 发布分支和目录
 
-在 `Pages` 选项中，将发布分支选择 `gh-pages`, 并使用 `/(root)` 目录作为发布目录**
+在 `Pages` 选项中，将发布分支选择 `gh-pages`, 并将 `/(root)` 作为发布目录
 
  ![github page deploy](/img/gh-pages-deploy-setting.png)
 
@@ -114,7 +114,6 @@ on:
 ---
 
 至此，所有配置工作已经完成。
-
 现在，我们来试试是否正常工作吧!
 
 ### 修改README.md
@@ -138,7 +137,11 @@ on:
 
  ![workflow-job-run](/img/workflow-job-run.png)
 
+- 来看看`gh-pages`的commit
+
+ ![gh-pages-auto-push](/img/gh-pages-auto-push.png)
+
 ## 结语
 
 通过使用 Github CI/CD服务，我们可以轻松的达到自动化构建部署博客的能力，
-一劳永逸，并且也免费享受到了内容托管, HTTPS, 域名服务, 让我们排除一切干扰, 专注于文字价值的创造吧!
+除此之外我们还免费享受到了**内容托管**, **HTTPS**, **域名服务**, 让我们排除一切干扰, 专注于价值创造吧!
